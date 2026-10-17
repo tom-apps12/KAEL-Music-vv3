@@ -792,27 +792,19 @@ fun ModernHomeTopBarInline(
                 .padding(horizontal = 16.dp, vertical = 12.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            // SMusic wordmark
+            // KAEL wordmark
             Row(
                 modifier = Modifier.weight(1f),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Image(
-                    painter = painterResource(R.drawable.smusic_logo),
-                    contentDescription = null,
-                    modifier = Modifier
-                        .size(28.dp)
-                        .clip(RoundedCornerShape(6.dp))
-                )
                 Text(
-                    text = "S",
+                    text = "KAEL",
                     style = MaterialTheme.typography.headlineMedium,
-                    color = androidx.compose.ui.graphics.Color(0xFFE53935),
-                    fontWeight = FontWeight.Black,
-                    modifier = Modifier.padding(start = 8.dp)
+                    color = androidx.compose.ui.graphics.Color(0xFFB56CFF),
+                    fontWeight = FontWeight.Black
                 )
                 Text(
-                    text = "MUSIC",
+                    text = " MUSIC",
                     style = MaterialTheme.typography.headlineMedium,
                     color = androidx.compose.ui.graphics.Color.White,
                     fontWeight = FontWeight.Black
