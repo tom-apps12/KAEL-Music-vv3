@@ -66,7 +66,7 @@ fun DeveloperScreen(
     // Prefer the live GitHub bio — falls back to the local string if the
     // fetch hasn't finished yet, failed, or the profile has no bio set.
     val bioText = profile?.bio?.takeIf { it.isNotBlank() } ?: stringResource(R.string.developer_bio)
-    val displayName = profile?.name?.takeIf { it.isNotBlank() } ?: "devxrohan"
+    val displayName = profile?.name?.takeIf { it.isNotBlank() } ?: "Vivin"
 
     Scaffold(
         topBar = {

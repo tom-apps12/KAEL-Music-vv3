@@ -877,7 +877,7 @@ fun ModernHomeTopBarInline(
                 .padding(start = 16.dp, end = 16.dp, top = 16.dp, bottom = 14.dp)
         ) {
             Text(
-                text = "SMUSIC",
+                text = "KAEL MUSIC",
                 style = MaterialTheme.typography.labelMedium,
                 fontWeight = FontWeight.ExtraBold,
                 letterSpacing = TextUnit(3f, TextUnitType.Sp),
